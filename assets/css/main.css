@@ -1,0 +1,173 @@
+/* 
+    Auther: Abdallah Mohammed
+    Theme: Me Site
+    version: 1.0
+*/
+
+
+
+
+/* ------------------- Hear Globel --------------------- */
+body {
+    font-family: 'Overpass', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url('/assets/images/egypt-pyramid-desert.jpg') center / cover no-repeat;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+.border-word {
+    letter-spacing: 1.5px;
+    border-left: 3px solid #007bff;
+}
+
+.linear {
+    background: linear-gradient(#0a000073, #0a000073) !important;
+}
+/* End Globel */
+
+
+
+
+/* ------------------- Hear Hearder --------------------- */
+.img-avatar {
+    margin-top: 10rem;
+    max-width: 300px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.title-avatar {
+    color: #e9ecef;
+    font-size: 36px;
+    letter-spacing: 1.4px;
+}
+
+.title-avatar span {
+    font-size: 12px;
+    color: #fff;
+}
+/* End Header */
+
+
+
+
+/* ------------------- Hear Skills --------------------- */
+
+.skills span {
+    font-size: 12px;
+    color: #adb5bd;
+    text-transform: uppercase;
+}
+
+.progress {
+    background-color: #adb5bd;
+}
+
+.progress-bar {
+    background-color: #383d41;
+}
+/* End Skills */
+
+
+
+
+/* ------------------- Hear About Me --------------------- */
+
+/* End About Me */
+
+
+
+
+/* ------------------- Hear Education --------------------- */
+.education span {
+    border-left: 3px solid #8BC34A;
+}
+/* End Education */
+
+
+
+
+/* ------------------- Hear Languages --------------------- */
+
+/* End Languages */
+
+
+
+
+/* ------------------- Hear Contact --------------------- */
+
+/* End Contact */
+
+
+
+
+/* ------------------- Hear Experiences --------------------- */
+
+/* End Experiences */
+
+
+
+
+/* ------------------- Hear Media --------------------- */
+.media {
+    width: 300px;
+}
+
+.media a {
+    color: #9E9E9E;
+    background-color: #0a000073;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 2px;
+    transition: all 0.3s ease-in;
+}
+
+.media .haver:hover {
+    color: #fff;
+}
+
+.media .haver-face:hover {
+    background-color: #16569a;
+}
+
+.media .haver-insta:hover {
+    background: linear-gradient(10deg, #FFC107, #9C27B0, #9C27B0);
+}
+
+.media .haver-linked:hover {
+    background-color: #072240;
+}
+
+.media .haver-tube:hover {
+    background-color: #b50101;
+}
+
+.media .haver-hub:hover,
+.media .haver-code:hover {
+    background-color: #242425;
+}
+/* End Media */
+
+
+
+
+/* ------------------- Hear Mobile Responsive --------------------- */
+@media (max-width: 770px) {
+
+    .about-me,
+    .languages {
+        margin-top: 2rem;
+    }
+
+    .contact {
+        margin-bottom: 2rem;
+    }
+
+}
+/* End Mobile Responsive */
+
+
